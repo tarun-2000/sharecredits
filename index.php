@@ -4,7 +4,7 @@
     $username= "root";
     $password ="";
     $database ="credits";
-    $con = mysqli_connect($server,$username,$password,$database,"3308");
+    $con = mysqli_connect($server,$username,$password,$database);
 
     if(!$con){
         die("connection failed:".connect_error());
