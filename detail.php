@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$con=mysqli_connect('localhost','root','','credits',"3308");
+$con=mysqli_connect('localhost','root','','credits');
 $name=$_POST['name'];
 $q="select * from usertable where name='$name'";
 $result=mysqli_query($con,$q);
