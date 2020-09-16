@@ -1,6 +1,6 @@
 <?php 
  session_start();
- $con=mysqli_connect('localhost','root','','credits',"3308");
+ $con=mysqli_connect('localhost','root','','credits');
  $q="select * from usertable";
  $result=mysqli_query($con,$q) or die(mysqli_error($con));
  
