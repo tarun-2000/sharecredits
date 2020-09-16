@@ -1,0 +1,73 @@
+body{
+	margin:auto;
+	background-color:gainsboro;
+}
+.box{
+	max-width:1000px;
+	height:auto;
+	background-color:white;
+	margin:auto;
+}
+.header{
+	float:left;
+	padding:15px;
+}
+.clearfix{
+	clear:both;
+}
+.main-menu{
+	background-color:teal;
+}
+.main-menu>ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.main-menu>ul>li a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	padding:15px;
+}
+.main-menu>ul>li a:hover{
+	background-color:blue;
+}
+.container{
+	max-width:1000px;
+	height:auto;
+	overflow:hidden;
+}
+.container img{
+	width:100%;
+	max-width:1000px;
+	height:auto;
+}
+.main-footer{
+	background-color:black;
+	color:white;
+	max-width:990px;
+	height:auto;
+	padding:5px;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+address a{
+	color:teal;
+}
+address p{
+	font-size:small;
+}
+.copy{
+	padding:25px;
+	text-align: center;
+	background-color:crimson;
+	color:white;
+}
+.copy p{
+	margin:0px;
+}
+.view{
+	padding:20px;
+}
