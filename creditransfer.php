@@ -1,6 +1,6 @@
 <?php
  session_start();
- $con=mysqli_connect('localhost','root','','credits',"3308");
+ $con=mysqli_connect('localhost','root','','credits');
  $q="select name from usertable";
  $result=mysqli_query($con,$q);
  $_SESSION['to']=$_POST["transfer"];
