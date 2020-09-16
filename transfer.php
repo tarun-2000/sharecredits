@@ -1,6 +1,6 @@
 <?php
  session_start();
- $con=mysqli_connect('localhost','root','','credits',"3308");
+ $con=mysqli_connect('localhost','root','','credits');
  $name1=$_SESSION['name'];
  $q="select name from usertable where not name='$name1'";
  $result=mysqli_query($con,$q);
