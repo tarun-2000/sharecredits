@@ -26,7 +26,8 @@ if ( $var1 > $_POST["transfer"] )
    echo"<script type='text/javascript'>alert('$message');
    </script>";
     include 'index.php';
-    
+    $q2="insert into transfers(sender, receiver, credit) values('$from', '$to', ".$_POST['transfer'].")";
+    $result2=mysqli_query($con,$q2) or die( mysqli_error($con));
 }
 else
 {
