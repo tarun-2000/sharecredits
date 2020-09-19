@@ -13,7 +13,7 @@ $result1=mysqli_query($con,$q1) or die( mysqli_error($con));
 $row=mysqli_fetch_array($result1);
 $var1=$row['curentcredit'];
 session_destroy();
-if ( $var1 > $_POST["transfer"] )
+if ( $var > $_POST["transfer"] )
 {
     $sub=$var-$_POST["transfer"];
     $q="update usertable set curentcredit='$sub' where name='$from' ";
